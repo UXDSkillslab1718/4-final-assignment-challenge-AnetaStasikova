@@ -1,0 +1,155 @@
+/* Global styles
+--------------------------- */
+body {
+    font-family: 'Courier', sans-serif;
+    background: rgb(255,250,240);
+    color: rgb(139,69,19);
+    margin: 0;
+}
+h3 {
+    margin: 21px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Text and headers
+--------------------------- */
+h2 {
+    font-size: 35px;
+    font-family: 'Courier', sans-serif;
+    font-weight: 10;
+    color: rgb(139,69,19);
+}
+h3 {
+    color: rgb(139,69,19);
+}
+a {
+   font-family: 'Courier',  sans-serif;
+    color: rgb(139,69,19);
+}
+a:hover {
+    text-decoration: none;
+    }
+.content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+	
+}
+
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: rgb(222,184,135);
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Header and Footer
+--------------------------- */
+header, footer {
+     background: rgb(250,235,215);
+    color: rgb(139,69,19);
+}
+/* Footer*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+    background: rgb(250,235,215);
+    padding: 15px;
+}
+/* Header */
+.profile-img {
+	padding: 50px;
+    border-radius: 50%;
+}
+h1, header h2, footer h2{
+    margin-top: 0;
+    font-family: 'Courier', cursive;
+    font-weight: 400;
+    background: rgb(250,235,215);
+    color: rgb(139,69,19);
+}
+header{
+  margin: 0;
+}
+h1 {
+    font-size: 70px;
+}
+h3 ~ p {
+    margin-left: 40px;
+}
+.download {
+  position: absolute;
+  bottom: 40;
+  right: 0;
+}
+
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: rgb(255,250,240);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+
+
+/* Education
+-------------------------*/
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../image/haag.jpg) no-repeat fixed;
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
