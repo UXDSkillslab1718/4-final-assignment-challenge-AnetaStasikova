@@ -151,3 +151,26 @@ p + h3 {
     width: 200px;
   }
 }
+
+
+/* Projects
+-------------------------*/
+.more {
+    margin-top: 10px;
+	margin-left:80px;
+	margin-bottom:30px;
+}
+.designcreativity {
+	background: rgb(255,250,240);
+}
+.Interculturalskills {
+	background: rgb(251,248,234);
+}
+
+.researchfordesign{
+	background: rgb(252,242,227);
+}
+
+.skilllab{
+background: rgb(253,240,220);
+}
