@@ -162,6 +162,8 @@ p + h3 {
 }
 .designcreativity {
 	background: rgb(255,250,240);
+	margin-top:70px;
+	
 }
 .Interculturalskills {
 	background: rgb(251,248,234);
@@ -173,4 +175,36 @@ p + h3 {
 
 .skilllab{
 background: rgb(253,240,220);
+}
+/* DaC*/
+@media (min-width: 900px) {
+img.hover-shadow {
+    transition: 0.3s;
+    width: 100%;
+}
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}' 
+	
+.thumbnail {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+ {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
